@@ -1,0 +1,142 @@
+@media screen and (max-width: 990px) {
+    main {
+
+        .overlay {
+
+            .form {
+
+
+
+                form {
+
+                    .form-item {
+                        flex-wrap: wrap;
+
+                        label {
+                            width: auto;
+                            text-align: left;
+                            margin-left: 15px;
+                            margin-right: 10px;
+                        }
+
+                        input {
+                            width: 100%;
+                        }
+
+                        select {
+                            width: 100%;
+
+                        }
+                    }
+
+                    .submit-form {
+                        width: 100%;
+                        margin-left: 0;
+                        padding-left: 0;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    header {
+        .overlay {
+            flex-wrap: wrap;
+
+            .responsive {
+                width: 100%;
+                border-bottom: 1px solid #ccc;
+
+                .burger-btn {
+                    display: flex;
+                }
+            }
+
+
+            .btns {
+                flex-wrap: wrap;
+                width: 100%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: none;
+                border-bottom: 1px solid #ccc;
+                transition: all 0.3s ease;
+                margin: 0;
+            }
+
+            .show {
+                display: flex;
+            }
+        }
+
+
+    }
+
+    main {
+
+        .overlay {
+
+
+            .form {
+
+
+
+                form {
+
+                    .form-item {
+                        flex-wrap: wrap;
+
+                        label {
+                            width: auto;
+                            text-align: left;
+                            margin-left: 15px;
+                            margin-right: 10px;
+                        }
+
+                        input {
+                            width: 100%;
+                        }
+
+                        select {
+                            width: 100%;
+
+                        }
+                    }
+
+                    .submit-form {
+                        width: 100%;
+                        margin-left: 0;
+                        padding-left: 0;
+                    }
+                }
+
+            }
+        }
+    }
+
+    footer {
+        .footer-system {
+            .version {
+                padding: 10px;
+            }
+        }
+
+        .copyright {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        .overlay {
+            margin: 0 15px;
+        }
+    }
+
+}

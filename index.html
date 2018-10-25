@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Webim</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="overlay">
+				<div class="responsive">
+					<div class="logo">
+						<a href="#"><img src="./img/logo.gif" alt="Logo"></a>
+					</div>
+
+					<div class="burger-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+
+				<div class="btns">
+
+					<a href="#" class="btn">Вход в систему</a>
+
+
+					<a href="#" class="btn">Регистрация</a>
+
+					<div class="lang">
+						<a class="btn">
+							<span class="flag ru"></span>
+						</a>
+						<ul class="menu">
+							<li><a data-lang='en' href="#"><span class="flag en"></span> <span>En</span> </a></li>
+							<li><a href="#" data-lang='ru'><span class="flag ru"></span> <span>Ru</span></a></li>
+							<li><a href="#" data-lang='he'><span class="flag he"></span> <span>He</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="overlay">
+				<div class="webim-app">
+
+					<div class="app-text">
+						<p>Для максимального удобства мы рекомендуем использовать приложение Webim Трей.</p>
+					</div>
+					<div class="app-download">
+						<a href="#" class="btn">Скачать приложение Webim Трей</a>
+					</div>
+				</div>
+				<div class="form">
+					<h1>Вход в административный интерфейс онлайн-консультанта Webim</h1>
+					<form action="login">
+						<div class="form-item">
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" placeholder="Введите адрес электронной почты">
+						</div>
+						<div class="form-item">
+							<label for="password">Пароль:</label>
+							<input type="password" id="password" name="password" placeholder="Введите пароль">
+						</div>
+						<div class="form-item">
+							<label for="online">Статус:</label>
+							<select name="online" id="online">
+								<option value="online">Онлайн</option>
+								<option value="offline">Офлайн</option>
+							</select>
+						</div>
+						<div class="form-item remember">
+							<label for="checkbox">Запомнить</label>
+							<input type="checkbox" id="checkbox" name="remember-me">
+						</div>
+						<div class="submit-form">
+							<button type="submit" class="btn">Войти</button>
+							<a href="#" class="restore-pas">Восстановить пароль</a>
+						</div>
+
+					</form>
+
+
+
+				</div>
+				<div class="store-app">
+					<a href="#"><img src="./img/appstore.svg" alt="AppStore"></a>
+					<a href="#"><img src="https://play.google.com/intl/en_us/badges/images/apps/ru-play-badge.png" alt="GooglePlay"></a>
+				</div>
+			</div>
+		</main>
+		<div class="support-chat">
+
+		</div>
+		<footer>
+			<div class="footer-system">
+				<a href="#" class="version">
+					Webim
+					<span>8.16.54</span>
+				</a>
+				<span class="safe">Защищенный режим</span>
+			</div>
+			<div class="copyright">
+				Предоставлено:
+				<a href="#">webim.ru</a>
+			</div>
+		</footer>
+	</div>
+
+	<script src="./js/common.js"></script>
+</body>
+
+</html>
